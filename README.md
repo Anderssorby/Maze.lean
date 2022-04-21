@@ -1,4 +1,4 @@
-# lean4-maze
+# A Maze game in lean4
 
 This repo shows how maze solving
 can be encoded as theorem proving
@@ -89,4 +89,17 @@ To get Lean to render the values back in the above format,
 we define a delaboration function and register it with the pretty printer.
 
 Lean 4 lets us do all of this in-line, in ordinary Lean 4 code.
+
+
+## Develop
+
+Enable auto loading dependencies into the shell with `direnv allow` or manually with `nix develop`.
+
+## Building
+
+Build with `nix build .`
+
+## Tests
+
+Run tests with `nix run .#test`
 

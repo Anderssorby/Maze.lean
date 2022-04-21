@@ -1,5 +1,6 @@
 import Lean
 
+namespace Maze
 -- Coordinates in a two dimensional grid. ⟨0,0⟩ is the upper left.
 structure Coords where
   x : Nat -- column number
